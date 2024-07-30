@@ -1,0 +1,107 @@
+	body {
+		background: linear-gradient(to bottom right, white, pink);
+	}
+	.row{
+		color:white;
+	}
+	.nav a:hover {
+		text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px gray;
+	}
+	.font1 {
+		font-family: Comic Sans Ms;
+	}
+	.texteff {
+		font-size:60px;
+		color:blue;
+		text-align: center;
+		animation: effect 1.5s ease-in-out infinite alternate;	
+	}
+	  
+	@keyframes effect {
+		  from {
+			text-shadow: 0 0 10px #ffffff,
+					   0 0 20px  #fff,
+					   0 0 30px  #fff,
+					   0 0 40px  #FF1177,
+					   0 0 70px  #FF1177,
+					   0 0 80px  #FF1177,
+					   0 0 100px #FF1177,
+					   0 0 150px #FF1177,
+					    0 0 50px #fce355;
+		  }
+		  to {
+			text-shadow: 0 0 5px #fff,
+					   0 0 10px #fff,
+					   0 0 15px #fff,
+					   0 0 20px #FF1177,
+					   0 0 35px #FF1177,
+					   0 0 40px #FF1177,
+					   0 0 50px #FF1177,
+					   0 0 75px #FF1177,
+					   0 0 50px #fce355;
+		  }
+	}
+	.container {
+		background-color:rgba(128,128,255,0.5);
+	}
+	.gSize {
+		font-size: 16px;
+	}
+
+	.container-fluid {
+		margin-left:11px;
+		margin-right:11px;
+	}
+	.carousel-inner {
+		width:400px;
+		height:400px;
+	}
+	.carousel-inner .active{
+		background-color:black;
+	}
+	.item_size {
+		width:250px;
+		height:250px;
+	}
+	.product{
+		position: relative;
+ 		overflow: hidden;
+	}
+	.detail {
+		background: rgba(0, 0, 0, 0.5);
+		color: #fff;
+ 		visibility: hidden;
+		top:10px;
+		bottom:10px;
+		left:10px;
+		right:10px;
+		padding:10px;
+		margin:50px;
+ 		opacity: 0;
+		text-align: center;
+		position: absolute;
+		width:10px;
+		height:10px;
+		
+	}
+	.detail h5 {
+		color:#00ffff;
+	}
+	.detail a {
+		color:#ffffff;
+	}
+	.detail span{
+		font-size:20px;
+		color:#ffffff;
+	}
+	.product:hover .detail {
+		transition: 1s;
+		visibility: visible;
+  		opacity: 1;
+		margin:0;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+/*  AIzaSyBuwBF4Yv4o4mf8AYEqF5j_BayhFT7mTGw  */

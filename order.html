@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EasyShop</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/myStyle.css">
+</head>
+<style>
+
+</style>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 class="font1 texteff"> EasyShop <small>.com</small></h1>
+		</div>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="row" style="padding:2px">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">EasyShop</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li><a href="home.html"><span class="glyphicon glyphicon-home"></span></a></li>
+						<li><a href="product.html">Prodcut</a></li>
+						<li class="active"><a href="order.html">Order</a></li>
+						<li><a href="about_us.html">About us</a></li>
+						<li><a href="contact_us.html">Contact us</a></li>
+						<li><a href="feedback.html">Feedback</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="view_cart.html"><i class="btn btn-primary glyphicon glyphicon-shopping-cart"></i></a></li>
+						<li><a href="sign_up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				</div>
+				<form class="navbar-form">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search"/>
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit">
+							<i class="glyphicon glyphicon-search"></i>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</nav>
+		<div class="well">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+					Order Information
+					</div>
+							<div class="panel-body">
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label for="nameField" class="col-xs-3"> Category </label>
+										<div class="col-xs-9">
+											<select id="categroy">
+												<option name="clothes"> Clothes </option>
+												<option name="shoes"> Shoes </option>
+												<option name="bags"> Bags </option>
+												<option name="Electronic"> Electronic </option>
+												<option name="Furniture"> Furniture </option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="nameField" class="col-xs-3"> Product Name </label>
+										<div class="col-xs-9">
+											<select id="Product Name">
+												<option name="1"> Baby girl 1 </option>
+												<option name="2"> Baby girl 2 </option>
+												<option name="3"> Lady 1 </option>
+												<option name="4"> Lady 2 </option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="nameField" class="col-xs-3"> Quantity </label>
+										<div class="col-xs-9">
+											<input type="number" min="1" max="10" value="1"/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="nameField" class="col-xs-3"> Color </label>
+										<div class="col-xs-9">
+											<select id="Color">
+												<option name="1"> Red </option>
+												<option name="2"> Green </option>
+												<option name="3"> Blue </option>
+												<option name="4"> White </option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="nameField" class="col-xs-3"> Payment Type</label>
+										<div class="col-xs-9">
+											<select id="Payment Type">
+												<option name="1"> PayPal </option>
+												<option name="2"> VISA </option>
+												<option name="3"> Master Card </option>
+												<option name="4"> American Express </option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="nameField" class="col-xs-3"> Shipping Address </label>
+										<input type="text" id="address" placeholder="city, township, street, No" style="width:300px;" required/>
+									</div>
+									<div class="form-group">
+										<label for="nameField" class="col-xs-3"> Description </label>
+										<!--div class="col-xs-9"-->
+											<textarea placeholder="Your comment" cols="60" rows="5"></textarea>
+										<!--/div-->
+									</div>
+									<div class="panel-footer">
+										<input type="submit" class="btn btn-primary" id="order" value="Order" />
+										<input type="reset"  class="btn btn-danger" value="Cancel"/>
+									</div>
+								</form>
+							</div>
+						</div>
+		</div>
+		<footer class="well">
+			<!-- Breadcrumbs -->
+			<ol class="breadcrumb">
+				<li class="pull-right"><a href="#">Back To Top</a></li>
+				<li><a href="design.html">&copy; 2017 Design by ZMO</a></li>
+				<li><a href="privacy.html">Privacy</a></li>
+				<li><a href="term.html">Term</li>
+			</ol>
+		</footer>
+		<hr/>
+	</div>
+			<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/order.js"></script>
+</body>
+</html>
