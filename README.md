@@ -2,7 +2,7 @@
 
 ## About
 
-A web design project for my school assignment.
+A web design project for my school assignment. **\#2016**
 
 ## Technologies
 
